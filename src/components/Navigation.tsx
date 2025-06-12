@@ -35,7 +35,6 @@ const Navigation = () => {
             <span className="text-2xl font-bold gradient-text font-playfair">EPV Softwares</span>
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navItems.map((item) => (
@@ -50,7 +49,6 @@ const Navigation = () => {
             </div>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -63,7 +61,6 @@ const Navigation = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden glass-effect">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
