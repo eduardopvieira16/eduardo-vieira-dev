@@ -14,6 +14,16 @@ const ProjectsSection = () => {
       liveUrl: 'https://eduardo-vieira-dev.vercel.app/',
       githubUrl: 'https://github.com/eduardopvieira16/eduardo-vieira-dev',
     },
+    {
+      title: 'Hub Bio',
+      description:
+        'Agrupador de links para uso pessoal',
+      image:
+        'https://images.unsplash.com/photo-1683721003111-070bcc053d8b?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Vite', 'Typescript', 'ShadcnUI', 'Tailwind CSS'],
+      liveUrl: 'https://hub-bio-eduardopvieira16s-projects.vercel.app/',
+      githubUrl: 'https://github.com/eduardopvieira16/hub-bio',
+    },
   ]
 
   return (
