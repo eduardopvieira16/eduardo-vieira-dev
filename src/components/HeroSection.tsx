@@ -21,7 +21,6 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center justify-center gradient-bg relative overflow-hidden"
     >
-      {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float"></div>
         <div
